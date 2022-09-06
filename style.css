@@ -1,0 +1,61 @@
+.navbar {
+    background-color: #004797;
+}
+.nav2 a {
+    color: #004797;
+    text-decoration: none;
+}
+.nav2 a:hover {
+    background-color: #004797;
+    color: #f5f5f5;
+    text-decoration: none;
+}
+.logo {
+    height: 80px;
+}
+.up span {
+    color: aliceblue;
+    text-decoration: none;
+}
+.icons {
+    text-align: center;
+    color: #004797;
+}
+.carousel {
+    width: 100%;
+}
+.offers {
+    margin: 5px;
+}
+.divider {
+    background-color: #f5f5f5;
+}
+.dividers {
+    margin-top: 10px;
+}
+.icon {
+    width: 40px;
+}
+.bank {
+    justify-content: center;
+}
+.cards {
+    width: 200px;
+    width: fit-content;
+}
+.title {
+    background-color: #f5f5f5;
+    color: #004797;
+}
+.content2 {
+    background-color: #f5f5f5;
+}
+h6 {
+    text-align: center;
+}
+img{
+    width: 100%;
+}
+footer {
+    background-color: black;
+}

@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <!-- First Nav -->
+    <nav class="navbar sticky-top mb-3">
+        <div class="container d-flex" >
+            <!-- Logo -->
+            <a class="brand" href="#">
+                <img class="logo"
+                    src="https://www.alkosto.com/medias/alkosto-logo.svg?context=bWFzdGVyfGltYWdlc3wxMjMxMnxpbWFnZS9zdmcreG1sfGltYWdlcy9oNmEvaDNlLzk5OTExMTAwNjYyMDYuc3ZnfDhkYTBjMDNjNTNhZjY5NTE0YTg5M2Y0NzZiODk1NjdmNTE4OTZiZWFlMTE1OTY3NTZlZGY4MWM0ZWNjNGI0NGM"
+                    alt="Logo Alkosto">
+            </a>
+            <div class="container d-grid text-light w-50">
+                <div class="row">
+                    <div class="col-2">
+                        <span>Venta:(601)7468001</span>
+                    </div>
+                    <div class="col-2">
+                        <span href="">Servicio:(601)4073033</span>
+                    </div>
+                    <div class="col-2">
+                        <span href="">Sigue tu pedido</span>    
+                    </div>
+                    <div class="col-2">
+                        <span href="">Nuestra tiendas</span>
+                    </div>
+                    <div class="col-2">
+                        <span href="">Catalogo</span>    
+                    </div>
+                    <div class="col-2">
+                        <span href="">Ayuda</span>      
+                    </div>
+                </div>
+                <div class="search d-block">
+                    <form class="d-flex justify-content-center" role="search">
+                        <input class="form-control mt-1 w-70"  type="search" placeholder="Search" aria-label="Search">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- Second Nav -->
+        <div class="container d-flex nav2 mt-1 p-1" style="background-color: #fff;">
+            <!-- Navbar content -->
+            <a href="">Celulares</a>
+            <a href="">Computadores</a>      
+            <a href="">Electrodomesticos</a>
+            <a href="">TV</a>
+            <a href="">Accesorios</a>
+            <a href="">Videojuegos</a>
+            <a href="">Audio</a>
+            <a href="">Cámaras</a>
+            <a href="">Casa Inteligente</a>
+            <a href="">Hogar</a>
+        </div>
+    </nav>
+    <!-- Carrousel and Card with Icons -->
+        <div class="container d-flex mb-3" >
+            <div id="carouselExampleControls" class="carousel" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://cdn.alkst.co/t7200233c/img/474xt_bkfp52_dbbe793e.jpg" class=" d-block w-100"
+                            alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://cdn.alkst.co/t7200233c/img/474xt_825pt9_c9d3afd2.jpg" class=" d-block w-100"
+                            alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://cdn.alkst.co/t7200233c/img/474xt_uday8z_a05bd110.jpg" class="d-block w-100"
+                            alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <div class="container icons d-grid">
+                <div class="row ">
+                    <div class="col-2">
+                        <img src="https://www.alkosto.com/medias/celulares.jpg?context=bWFzdGVyfHJvb3R8Mjc2M3xpbWFnZS9qcGVnfGhiNy9oMWIvMTIzNjM1NDM3NDA0NDYuanBnfGY0MDVjYWFkNTZlZGM1MTlkYTZiZWEyZjkzYTA1MGZiZDVhMjlmYjk4ZGYzZDliZjcxODFkNTI0MjUwYzhkYTY"
+                            alt="">
+                            <span>Celulares</span>
+                    </div>
+                    <div class="col-2">
+                        <img src="https://www.alkosto.com/medias/computador.png?context=bWFzdGVyfGRpYS1zaW4taXZhfDMxNTZ8aW1hZ2UvcG5nfGRpYS1zaW4taXZhL2gxOS9oMWQvMTE0MjM1NjYzMzE5MzQucG5nfGJjODA1NjBkYTljZmM0N2VkNWZiMzYzNzU3N2UxNzBhNWM4OTBlODJkN2EzNmNkZDhjOGE4MjVjODc2YmYwZDA"
+                            alt="">
+                            <span>Computadores</span>
+
+                    </div>
+                    <div class="col-2">
+                        <img src="https://www.alkosto.com/medias/televisor.png?context=bWFzdGVyfGRpYS1zaW4taXZhfDQ1Nzl8aW1hZ2UvcG5nfGRpYS1zaW4taXZhL2g2Zi9oMDcvMTE0MjM1NjIzMDE0NzAucG5nfDQ0YWQ4YmZhZmMwMGMyZTljZTQzN2UyNmQwNTc0NDAyMDcxMjdhMGIwZGQ3ZjAxNDllNDUwZmM4NmEwNzI5YmM"
+                            alt="">
+                            <span>Televisores</span>
+                    </div>
+                    <div class="col-2">
+                        <img src="https://www.alkosto.com/medias/electro.jpg?context=bWFzdGVyfHJvb3R8MTU5MHxpbWFnZS9qcGVnfGgxMy9oOTgvMTIzNTk1MzIzODAxOTAuanBnfGRjMzc3NDE4NzBkMzhlOGRiZWE2ZWYzNDYwODc1YWNkZDM3MGEzNGVlNzdiZTUzMGM1OWE5ZjI2ZWM1NWNkYWY"
+                            alt="">
+                            <span>Electrodo</span>
+                    </div>
+                    <div class="col-2">
+                        <img src="https://www.alkosto.com/medias/electro-menores.jpg?context=bWFzdGVyfHJvb3R8MjEyOHxpbWFnZS9qcGVnfGg1Ny9oNmEvMTI2NzY5ODU1NTI5MjYuanBnfGQ2YzY2OTMzZTRjMmYxYjZhZjIyNjNlZGY5Y2U5OWI3Yzc1Mzg3MWY4NzM4ZDljYWYwNmVlOTBlYmU0YTE5MTE"
+                            alt="">
+                            <span>Electromenor</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <img src="https://www.alkosto.com/medias/audio.jpg?context=bWFzdGVyfHJvb3R8MjMwOHxpbWFnZS9qcGVnfGg2OC9oYWEvMTIzNTk1MzA5NzExNjYuanBnfGU3MzBkYjEzOGM1MThiMDg4MDIzMTVkMDYxZDQyMTJjYTQyMjRhNDYwMWI1YjJlZTBmZDZhMjE2OTNjOGIzOTA"
+                            alt="">
+                            <span>Audio</span>
+                    </div>
+                    <div class="col-2">
+                        <img src="https://www.alkosto.com/medias/videojuegos.jpg?context=bWFzdGVyfHJvb3R8MjQxMHxpbWFnZS9qcGVnfGg2YS9oYzcvMTIzNTk1MzUxNjU0NzAuanBnfDhmNWVlOTcxZWJiMWJhMGVmM2VjNjUzZWNkNzU3NWQ5MDEzN2ZhMDU0YzE1MTc3ODJlODE0MzIzN2ViZTNiZGY"
+                            alt="">
+                            <span>Videojuegos</span>
+                    </div>
+                    <div class="col-2">
+                        <img src="https://www.alkosto.com/medias/accesorios.jpg?context=bWFzdGVyfHJvb3R8MTczOHxpbWFnZS9qcGVnfGhjYi9oOGYvMTIzNTk1Mjk0OTY2MDYuanBnfDBiNjA5ODI5NDJkMjcxODIyNmE1NWE5YmE4MjBkMGEzZjAzMjQ0OTBhZWQ1MGM2Yzg3MmY3YWFjOTM3MjVhNjM"
+                            alt="">
+                            <span>Accesorios</span>
+                    </div>
+                    <div class="col-2">
+                        <img src="https://www.alkosto.com/medias/reloj-izq.jpg?context=bWFzdGVyfHJvb3R8MzQwOHxpbWFnZS9qcGVnfGg1YS9oZDIvMTIzNjM1Nzk0NTc1NjYuanBnfGU0YTEzNzM3YWQxNzdkNWVmYTAyNTgwYTMyZDU1NTVmZTVjZTE1M2RkMDY2YjhmM2Y4ZDU1Y2UyNmNhMmU2M2E"
+                            alt="">
+                            <span>Smartwatch</span>
+                    </div>
+                    <div class="col-2">
+                        <img src="https://www.alkosto.com/medias/tablet.jpg?context=bWFzdGVyfHJvb3R8NDAwNHxpbWFnZS9qcGVnfGgyYS9oYjkvMTIzNjM1NDQzNjMwMzguanBnfDVmMWUxMTY5OTc1NTVjZDQwYTA3ZWIyMzlkNmYyZmFhYWNjN2I2M2EyMGI3ZGEwYjQ1OTg0YWNmZDZmMzkzMDI"
+                            alt="">
+                            <span>Tabletas</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <img src="https://www.alkosto.com/medias/MicrosoftTeams-image-5-.png?context=bWFzdGVyfGltZy1wYWdpbmFzLWVycm9yLTUwMHwyNjQ1fGltYWdlL3BuZ3xpbWctcGFnaW5hcy1lcnJvci01MDAvaGRlL2g1MS8xMjQxNDExOTQxMTc0Mi5wbmd8NzBmZDMwM2E5M2Q0NzU0ZDlhNTRhMzA1MGMzNDcyYjkyMzVhY2JhY2ZlNDNjNGVkNzFiODQxOGI0NTMxYWMzYw"
+                            alt="">
+                            <span>Camaras</span>
+                    </div>
+                    <div class="col-2">
+                        <img src="https://www.alkosto.com/medias/MicrosoftTeams-image-3-.png?context=bWFzdGVyfGltZy1wYWdpbmFzLWVycm9yLTUwMHwyMzAzfGltYWdlL3BuZ3xpbWctcGFnaW5hcy1lcnJvci01MDAvaGQwL2gyMy8xMjQwODM4NzE0MTY2Mi5wbmd8ZDg3Y2UwMWFiOTcwNTBkZTY5NmNlMTYyZTg1OWVmNjUxMGFkNjc2ZDYzMGQ3Nzg0MjNkZjk1ODViYzlkOWIzYQ"
+                            alt="">
+                            <span>Impresoras</span>
+                    </div>
+                    <div class="col-2">
+                        <img src="https://www.alkosto.com/medias/MicrosoftTeams-image-2-.png?context=bWFzdGVyfGltZy1wYWdpbmFzLWVycm9yLTUwMHwyMjkwfGltYWdlL3BuZ3xpbWctcGFnaW5hcy1lcnJvci01MDAvaDk2L2g4Zi8xMjQwODM4Nzc5NzAyMi5wbmd8MjQ0YTNhYjE1ZWE2NjcxZDEyYzAxMzRkOGVhMWFiMTZhNjE4M2IzYjBkMzZjZjUzMjU5MGMxMTY3NTExYjM3Mg"
+                            alt="">
+                            <span>Pines</span>
+                    </div>
+                    <div class="col-2">
+                        <img src="https://www.alkosto.com/medias/juguete.png?context=bWFzdGVyfGRpYS1zaW4taXZhfDQ0NTl8aW1hZ2UvcG5nfGRpYS1zaW4taXZhL2hmYy9oOWMvMTE2ODUxNDY3MjIzMzQucG5nfDU5MjEzOTIyNzY3NTQ0YTNjOGFlZDRlOGVjZTQwMjQ0MzZkY2UwNjFhY2U4MDI5YTk3YjljNDk1ODQwMmIwNmM"
+                            alt="">
+                            <span>Juguetes</span>
+                    </div>
+                    <div class="col-2">
+                        <img src="https://www.alkosto.com/medias/vajilla.jpg?context=bWFzdGVyfHJvb3R8MjgxNnxpbWFnZS9qcGVnfGg0Ny9oMjIvMTIzOTQ3NDAxODcxNjYuanBnfGM1NjVmNzViY2UxZGM4MmM2NDc1MDMxYTE4OGRjNWI1ZDc4YjE5MmYzZjVmNmNlOTNkMzRlN2FiMWY4YTIzNTk"
+                            alt="">
+                            <span>Hogar</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <img src="https://www.alkosto.com/medias/colchones-boton.jpg?context=bWFzdGVyfHJvb3R8NTMzMHxpbWFnZS9qcGVnfGhjZi9oZWYvMTI3Mjc2NzE0ODg1NDIuanBnfDU1Mjk4ZTQwMjcxMTRjYzY1ZGY2N2E2MmJmZmE0ZjM3NDcwNDYzYmM3YWU5ZmQ4YmQyNzY4Nzg4ZTNiMDM5OTc"
+                            alt="">
+                            <span>Colchones</span>
+                    </div>
+                    <div class="col-2">
+                        <img src="https://www.alkosto.com/medias/boton-mueble.jpg?context=bWFzdGVyfGhvZ2FyfDYwMDd8aW1hZ2UvanBlZ3xob2dhci9oOTIvaDM0LzEyNzI3NjcxNzgzNDU0LmpwZ3xiN2RjNWIxMTQ3NTc4ODRkOGQ2MmYwZmIzZDM1M2RjZDVmMDIxOWYwZDNiOWI4ZGEzYjUzYWRjNjc3ZDIyMDdm"
+                            alt="">
+                            <span>Muebles</span>
+                    </div>
+                    <div class="col-2">
+                        <img src="https://www.alkosto.com/medias/deportes.png?context=bWFzdGVyfGRpYS1zaW4taXZhfDEwMzY2fGltYWdlL3BuZ3xkaWEtc2luLWl2YS9oZTEvaDFkLzExNjg1MTQ1MDE4Mzk4LnBuZ3xhOGUwNDliNTE0OWRmYmMxZWQzNDJmMWUyZWMyMmJkN2IyZmYwNzZhYWMxODM3MGQ1MDQyNmQwNjk0N2IwN2E2"
+                            alt="">
+                            <span>Deportes</span>
+                    </div>
+                    <div class="col-2">
+                        <img src="https://www.alkosto.com/medias/llanta.jpg?context=bWFzdGVyfHJvb3R8MjUwM3xpbWFnZS9qcGVnfGgxMi9oZmYvMTIzNTk1MzM3ODkyMTQuanBnfDJiZjU5ZDdkMDZlZDY3YWZjN2YzMWVmZmZhYTEzNTUyYmUzY2YwMWI4MWQ1NGUwYjdhNjFlMjQ1OGVhMDhmYzM"
+                            alt="">
+                            <span>Llantas</span>
+                    </div>
+                    <div class="col-2">
+                        <img src="https://www.alkosto.com/medias/videojuegos.jpg?context=bWFzdGVyfHJvb3R8MjQxMHxpbWFnZS9qcGVnfGg2YS9oYzcvMTIzNTk1MzUxNjU0NzAuanBnfDhmNWVlOTcxZWJiMWJhMGVmM2VjNjUzZWNkNzU3NWQ5MDEzN2ZhMDU0YzE1MTc3ODJlODE0MzIzN2ViZTNiZGY"
+                            alt="">
+                            <span>Ofertas</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h6>Ofertas Destacadas</h6>
+        <hr>
+        <!-- Offers -->
+    <div class="content2 d-flex justify-content-around w-100">
+        <div class="container offers d-flex justify-content-center p-3">
+            <div class="offers">
+                <img class="img" src="https://cdn.alkst.co/t7200233c/img/474xt_eu6m9d_209c6705.jpg" alt="">
+            </div>
+            <div class="offers">
+                <img class="img" src="https://cdn.alkst.co/t7200233c/img/474xt_fwb7pg_4b83892e.jpg" alt="">
+            </div>
+            <div class="offers">
+                <img class="img" src="https://cdn.alkst.co/t7200233c/img/474xt_fmhg3a_fd06274e.jpg" alt="">
+            </div>
+            <div class="offers">
+                <img class="img" src="https://cdn.alkst.co/t7200233c/img/474xt_pwknge_2cea7cb6.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- navbar 3 -->
+    <div class="content2">
+        <div class="container divider justify-content-sm-around  d-flex" >
+            <img class="icon" src="https://www.alkosto.com/medias/envio.svg?context=bWFzdGVyfGRpYS1zaW4taXZhfDkzOTB8aW1hZ2Uvc3ZnK3htbHxkaWEtc2luLWl2YS9oNzQvaDc1LzExNDI0MjcyMTg3NDIyLnN2Z3xiNGE1MTEyYjUzYjVlOGVmMmU4ODNiN2RjMjVmYmQ0MWRhMGIxZTAwNzFiNGMzOWNlNjlkYTk3ZTM2NDFlMTM1" alt="">
+            <a class="navbar-brand" href="#">Envio gratis a 600 municipios</a>
+            <img class="icon" src="https://www.alkosto.com/medias/gana-50.svg?context=bWFzdGVyfGRpYS1zaW4taXZhfDkzNjB8aW1hZ2Uvc3ZnK3htbHxkaWEtc2luLWl2YS9oOGQvaDViLzExNDI0MjcyNDQ5NTY2LnN2Z3wyN2MzNjZlM2IwYmNhMjY1NWIwMjlhZGU3NmI0ZjY5N2MxMjg0YzliYTNlNTc4ZmI3MTJhYWYzOTNkYWYzNjZl" alt="">
+            <a class="navbar-brand" href="#">Gana con la mitad de tu compra</a>
+            <img class="icon" src="https://www.alkosto.com/medias/tienda.svg?context=bWFzdGVyfGRpYS1zaW4taXZhfDk5MDl8aW1hZ2Uvc3ZnK3htbHxkaWEtc2luLWl2YS9oNmIvaDg0LzExNDI0MjkzNDg2NjIyLnN2Z3xhNjJjOWUzMmM3MzExYjNmNTkxY2IxZmJkOGUyM2FhOTMyNmYyNTUzMjNiNWY1MDVhNDJiZDg2NmUyYzM1MzZl" alt="">
+            <a class="navbar-brand" href="#">Compra en linea y recoge en tienda</a>
+            <img class="icon" src="https://www.alkosto.com/medias/calendario.svg?context=bWFzdGVyfGRpYS1zaW4taXZhfDEwMzk3fGltYWdlL3N2Zyt4bWx8ZGlhLXNpbi1pdmEvaGNiL2hmMS8xMTQyNDI5NDA3NjQ0Ni5zdmd8ZWE4NDc1NzIyZWE5OGI4YWIwN2FhNzU3YzUyZThlODVkMDFkYWY0YjA4YWU3ZWVkZTAwNGRlNjM2NmM1NWM4Mg" alt="">
+            <a class="navbar-brand" href="#">Tiempos de cambios y devoluciones</a>
+        </div>
+    </div>
+    <!-- banner -->
+    <div class="container">
+        <img class="img" src="https://cdn.alkst.co/t7200233c/img/474xt_rva57w_699451bf.jpg" alt="">
+    </div>
+    <!-- Cuadricula -->
+    <div class="container offers p-3 mb-3"> 
+        <div class="dividers">
+            <h6>Celulares</h6>
+            <hr>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img class="img" src="https://cdn.alkst.co/t7200233c/img/474xt_d238f4_bedcf24e.jpg" alt="">
+            </div>
+            <div class="col-4">
+                <img class="img" src="https://cdn.alkst.co/t7200233c/img/474xt_epuc78_3decad7f.jpg" alt="">
+            </div>
+            <div class="col-4 p-2">
+                <img class="img" src="https://cdn.alkst.co/t7200233c/img/474xt_sz39cx_aa4e7d23.jpg" alt="">
+            </div>
+        </div>
+        <div class="dividers">
+            <h6>Computadores</h6>
+            <hr>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img class="img" src="https://cdn.alkst.co/t7200233c/img/474xt_nz96rv_e3924d20.jpg" alt="">
+            </div>
+            <div class="col-4">
+                <img class="img" src="https://cdn.alkst.co/t7200233c/img/474xt_tp397w_bf35a951.jpg" alt="">
+            </div>
+            <div class="col-4 p-2">
+                <img class="img" src="https://cdn.alkst.co/t7200233c/img/474xt_vfgtu6_e3002b48.jpg" alt="">
+            </div>
+        </div>
+        <div class="dividers">
+            <h6>Televisores</h6>
+            <hr>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img class="img" src="https://cdn.alkst.co/t7200233c/img/474xt_3pbx7g_d65a71e5.jpg" alt="">
+            </div>
+            <div class="col-4">
+                <img class="img" src="https://cdn.alkst.co/t7200233c/img/474xt_vrduh3_9b5a9634.jpg" alt="">
+            </div>
+            <div class="col-4 p-2">
+                <img class="img" src="https://cdn.alkst.co/t7200233c/img/474xt_tsagdh_d7c9528a.jpg" alt="">
+            </div>
+        </div>
+        <div class="dividers">
+            <h6>Electrodomesticos</h6>
+            <hr>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img class="img" src="https://cdn.alkst.co/t7200233c/img/474xt_d238f4_bedcf24e.jpg" alt="">
+            </div>
+            <div class="col-4">
+                <img class="img" src="https://cdn.alkst.co/t7200233c/img/474xt_vrduh3_9b5a9634.jpg" alt="">
+            </div>
+            <div class="col-4 p-2">
+                <img class="img" src="https://cdn.alkst.co/t7200233c/img/474xt_tsagdh_d7c9528a.jpg" alt="">
+            </div>
+        </div>
+        <div class="dividers">
+            <h6>Videojuegos y mas</h6>
+            <hr>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img class="img" src="https://cdn.alkst.co/t7200233c/img/474xt_ft7z4b_a6d86025.jpg" alt="">
+            </div>
+            <div class="col-4">
+                <img class="img" src="https://cdn.alkst.co/t7200233c/img/474xt_f5b6ag_241c41f0.jpg" alt="">
+            </div>
+        </div>
+        <div class="dividers">
+            <h6>Conoce más</h6>
+            <hr>
+        </div>
+    </div>
+    <!--Banner 2  -->
+    <div class="container">
+        <div class="row mb-4">
+            <div class="col-3">
+                <img src="https://cdn.alkst.co/t7200233c/img/474xt_ve8ngb_37272078.jpg" alt="">
+            </div>
+            <div class="col-3">
+                <img src="https://cdn.alkst.co/t7200233c/img/474xt_zrntmv_fb2f10e3.jpg" alt="">
+            </div>
+            <div class="col-3">
+                <img src="https://cdn.alkst.co/t7200233c/img/474xt_kg75nr_563d940a.jpg" alt="">
+            </div>
+            <div class="col-3">
+                <img src="https://cdn.alkst.co/t7200233c/img/474xt_mf3ct6_24259247.jpg" alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <img src="https://cdn.alkst.co/t7200233c/img/474xt_z5m2ys_d98188e1.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- Divider -->
+    <div class="dividers">
+        <h6>Beneficios con bancos</h6>
+        <hr>
+    </div>
+    <!-- Bank -->
+    <div class="container d-flex justify-content-around">
+        <div class="row">
+            <div class="col-3">
+                <img class="cards" src="https://media.aws.alkosto.com/ymarketingcolcomercio/Alkosto/2022/home/bancos/BANCOS-HOME-TCA.png" alt="">
+            </div>
+            <div class="col-3">
+                <img class="cards" src="https://media.aws.alkosto.com/ymarketingcolcomercio/Alkosto/2022/home/bancos/BANCOS-HOME-CODENSA2.png" alt="">
+            </div>
+            <div class="col-3">
+                <img class="cards" src="https://media.aws.alkosto.com/ymarketingcolcomercio/Alkosto/2022/home/bancos/BANCOS-HOME-OES3.png" alt="">
+            </div>
+            <div class="col-3">
+                <img class="cards" src="https://media.aws.alkosto.com/ymarketingcolcomercio/Alkosto/2022/home/bancos/BANCOS-HOME-KREDITO-20MIN.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <footer>
+        <div class="container bg-black">
+            <div class="row text-light">
+                <div class="col-4 mt-2">
+                    <img class="icon" src="https://www.alkosto.com/medias/about-icon.png?context=bWFzdGVyfGltYWdlc3w2MjJ8aW1hZ2UvcG5nfGltYWdlcy9oM2MvaDkxLzk3NjE0NDE2NzczNDIucG5nfDU4Y2M2MDRjZjNjNDE4YTg1YzEwN2JmMGY1YmNkMzlkYmFmNmY5YzRiZGFlMGE0YzljOTdjZTc1MjQ4N2IzMzI" alt="">
+                    <p>Sobre nosotros</p>
+                </div>
+                
+                <div class="col-4 mt-2">
+                    <img class="icon" src="https://www.alkosto.com/medias/email-icon.png?context=bWFzdGVyfGltYWdlc3w4MTF8aW1hZ2UvcG5nfGltYWdlcy9oMmIvaDE1Lzk3NjE0NDE3NDI4NzgucG5nfGM5MWM5MGQ0NWQ2NzM2MjEwNWVmMmM5OWEzNmY0ZDIxYTU4ZjQwYzAwZTE1OTIxYjY5OGU3NzBmYmFjNjI0MjY" alt="">
+                    <p>Email</p>
+                </div>
+                <div class="col-4 mt-2">
+                    <img class="icon" src="https://www.alkosto.com/medias/contact-icon.png?context=bWFzdGVyfGltYWdlc3w3MjR8aW1hZ2UvcG5nfGltYWdlcy9oM2QvaDI4Lzk3NjE0NDE3MTAxMTAucG5nfGJiOWFlZDVjNjhkYTI5ZjYyZTUwMDA2NjRjOGE0NTBkZmE1ZjdiNTYwYzVkMjMwM2NkODVmMjk1YjhjNWViMzk" alt="">
+                    <p>Venta telefonica</p>
+                </div>
+            </div>
+            <div class="row text-light">
+                <div class="col-12">
+                    <hr>
+                    <p>Medios de pago aceptados</p>
+                    <div class="row">
+                        <div class="col-1">
+                            <img class="icon" src="https://www.alkosto.com/medias/VISA.png?context=bWFzdGVyfGltYWdlc3w1Njh8aW1hZ2UvcG5nfGhhYy9oZmIvMTMzODY2NjM4NTQxMTAvVklTQS5wbmd8NzJmZmQzMzQ3MDJmYmE0YzYxY2QwNzZlMDVmNjk2MGI2YjU0MTdiZDVjNDFhYjNlMWIyYWFhOTNlY2I2ZjUwOA" alt="">
+                        </div>
+                        <div class="col-1">
+                            <img class="icon" src="https://www.alkosto.com/medias/DINNERS-CLUB-18-min.svg?context=bWFzdGVyfGltYWdlc3wxNTc1MnxpbWFnZS9zdmcreG1sfGg0Ni9oMWUvMTMzODY2NjE1OTMxMTgvRElOTkVSUy1DTFVCLTE4LW1pbi5zdmd8YmExYTFjZTY1ZDExM2YzZWFhOWQyOTA3MzkwZTIyZDE3YTRjYjgwMWE1YWU3OWMwMjhlNTg5ZjlmNDc4ZDJiNw" alt="">
+                        </div>
+                        <div class="col-1">
+                            <img class="icon" src="https://www.alkosto.com/medias/mastercard-icon.png?context=bWFzdGVyfGltYWdlc3wyODYwfGltYWdlL3BuZ3xpbWFnZXMvaDE1L2hjMC85Mzg1MjI5MzUyOTkwLnBuZ3xiZTQ5ODRjZjQ3YzFlMjZiYjBjNzE2ZWI3NzdmMDNlMzVlZTI2NjUxMWQzYjc5ZThiODgyZDA0MTg0YmQwMDY5" alt="">
+                        </div>
+                        <div class="col-1">
+                            <img class="icon" src="https://www.alkosto.com/medias/amex-card-icon.png?context=bWFzdGVyfGltYWdlc3wyMjU1fGltYWdlL3BuZ3xpbWFnZXMvaGI5L2g3My85Mzg1MjI5MjIxOTE4LnBuZ3xkNmQyNDMzODMyODU0NWU0MDdlZWExNjhiZGZmMzcyZGJhNTJiMzBkNWFhYTZmMTg1NTYwMjZiZTg2OTcxZjdh" alt="">
+                        </div>
+                        <div class="col-1">
+                            <img class="icon" src="https://www.alkosto.com/medias/bancolombia-boton-icon.png?context=bWFzdGVyfGltYWdlc3wxNzc0MnxpbWFnZS9wbmd8aW1hZ2VzL2hiOS9oMzEvMTE0NDQ4NDkzNDQ1NDIucG5nfGM5OWNiNTM1ZDI1NTE2YjNkM2E1N2U3YzdmZTBlODc5OWFhOGJiYzg0YWQwM2I2MzM4NjM1YmVkNjc3NmE2NTU" alt="">
+                        </div>
+                        <div class="col-1">
+                            <img class="icon" src="https://www.alkosto.com/medias/pse-icon.png?context=bWFzdGVyfGltYWdlc3wxMTk4MnxpbWFnZS9wbmd8aW1hZ2VzL2gwMy9oNTAvOTM4NTIyOTE1NjM4Mi5wbmd8ZTUyYTJlMzRlOGQxY2ZkMGVlMTgyZTBkN2FkODBlMWZlN2M0YjY0ZTQzM2M5MzkxMDUxZjQ1ZGNmOWY1YzhmYQ" alt="">
+                        </div>
+                        <div class="col-1">
+                            <img class="icon" src="https://www.alkosto.com/medias/TARJETA-ALKOSTO.png?context=bWFzdGVyfGltYWdlc3w1MjY0fGltYWdlL3BuZ3xoZDMvaDJiLzEzMzg2NjYxOTg2MzM0L1RBUkpFVEEtQUxLT1NUTy5wbmd8MmFmNTM2MWMwOWRmYzViZWRiYmQ0YWI1Mzk2MDUxOTdkNjc5NTQ4MzQwNmQ2ZWY1MWE0NThjNjY1Y2FiMWM0ZA" alt="">
+                        </div>
+                        <div class="col-1">
+                            <img class="icon" src="https://www.alkosto.com/medias/EFECTY.png?context=bWFzdGVyfGltYWdlc3wxNzI3fGltYWdlL3BuZ3xoZWQvaDhhLzEzMzg2NjYyNjQxNjk0L0VGRUNUWS5wbmd8Y2NkMGVhYzJiNWY4MTNlNGI1YjFlZDQwOWIzOGE4YTEyNzE0ZTMxZjA3MGYyNDcwYzY5N2Y0M2I4MjM1NzVjYQ" alt="">
+                        </div>
+                        <div class="col-1">
+                            <img class="icon" src="https://www.alkosto.com/medias/CODENSA.png?context=bWFzdGVyfGltYWdlc3wyMjQ2fGltYWdlL3BuZ3xoMWMvaGYxLzEzMzg2NjYzNTI2NDMwL0NPREVOU0EucG5nfGQ0NmEwNGQ4ZjBhNWQwNTBlYjkzN2M0ZjhmN2M4OTZkZWU5NGY5ZGIwYTU4NDZkNTlhNzNkODc1NDNkM2UzYmY" alt="">
+                        </div>
+                        <div class="col-1">
+                            <img class="icon" src="https://www.alkosto.com/medias/credito20min-icon.png?context=bWFzdGVyfGltYWdlc3wzMTUxM3xpbWFnZS9wbmd8aW1hZ2VzL2g1OS9oZDkvOTM4NTIyOTQxODUyNi5wbmd8ZGMxNWJiYTkxNTRiNDA1ZTcyY2Y1NDk2M2I5YjE1YmNmZDc0MDg2MzU2NWRjNGYxYWRkOTAzNWY4MTViMmNmMA" alt="">
+                        </div>
+                        <div class="col-1">
+                            <img class="icon" src="https://www.alkosto.com/medias/DAVIVIENDA.png?context=bWFzdGVyfGltYWdlc3wxMTk2fGltYWdlL3BuZ3xoZWQvaGY3LzEzMzg2NjYzNzIzMDM4L0RBVklWSUVOREEucG5nfGQ5NDAzNWUyZWU1YmU1NDliODA5NTUwOWY3YjhjMzE0OWQ1MmRhNTc0OWZjOGYzMDQwNGM4YjFiNjZhNzc3MjY" alt="">
+                        </div>
+                        <div class="col-1">
+                            <img class="icon" src="https://www.alkosto.com/medias/BANCO-BOGOTA.png?context=bWFzdGVyfGltYWdlc3wxMzk0fGltYWdlL3BuZ3xoNzUvaGVlLzEzMzg2NjYzNDkzNjYyL0JBTkNPLUJPR09UQS5wbmd8ZDY4M2ZiMzY1YzQ2YzYyMDgyNDAzNGZiZmRmODdmMmZiN2ZmMmM2ZjVjMTAwODY2NTEwZTcxZjkzMDA3YWM3Ng" alt="">
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-3">
+                            <p>Nuestra Compañia</p>
+                        </div>
+                        <div class="col-3">
+                            Compras en línea
+                        </div>
+                        <div class="col-3">
+                            Servicios
+                        </div>
+                        <div class="col-3">
+                            Políticas
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </footer>
+</body>
+
+</html>
